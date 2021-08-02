@@ -1,0 +1,23 @@
+.service-card:hover{
+    background-image: url('../../../images/bg1.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.service-card{
+    background-image: url('../../../images/bg1.PNG');
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position-x: -100px;
+    background-position-y: -20px;
+}
+
+.service-container{
+    background-image: url('../../../images/dot-bg.png');
+    background-repeat: no-repeat;
+    background-size:10%;
+    background-position-x: 20px;
+    background-position-y: 90px;
+}
