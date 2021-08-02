@@ -1,71 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live site Link
+https://react-router-practice-4-user.web.app/
 
-In the project directory, you can run:
+## Client site code Link
+https://github.com/MerazArman/eagle-courier-express-client
 
-### `npm start`
+## Server side code Link
+https://github.com/MerazArman/eagle-courier-express-server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ওয়েবসাইটে ব্যবহারিত টুলসঃ
+	Html
+	Css
+	Bootstrap
+	Javascript
+	React
+	Material-ui
+	React-router
+	Node.js
+	Mongodb
+	Firebase-authenticetion
+	Express.js
 
-### `npm test`
+# কী ধরনের ওয়েবসাইট এবং কাজ কী? 
+এইটা একটা কুরিয়ার এবং ডেলিভারী সংশ্লিষ্ট ওয়েবসাইট । যার দ্বারা অনলাইনের মাধ্যমেই মালামাল এবং প্রয়োজনীয় ডকুমেন্টস খুব সহজেই এক স্থান থেকে অন্য স্থানে ডেলিভারি  করা যাবে।
+এমন কি এই ওয়েবসাটের মাধ্যমে কুরিয়ার অফিস বা সেন্টারে  না গিয়েও  বাসায় বসেই যে কোন ধরনের নিত্যপ্রয়োজনিয় মালামাল এবং ডকুমেন্টস ডেলিভারী  করা সম্ভব। অর্থাৎ আপনার বাসা থেকে মালামাল সংগ্রহ করে গন্তব্য স্থলে পোউছে দেয়া হবে। 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 	ফাইল স্ট্রাকচারঃ
+Src ফোল্ডারের মাঝে  App.js এর ভিতরে রিয়েক্ট রাউটার এবং কন্টেক্সক্ট এপিয়াই ক্রিয়েট করা হয়েছে।
+এবং components ফোল্ডারের ৭ টা ফোল্ডার ডিক্লায়ার করা হয়েছে ।
+1)	Home:- এই ফোল্ডারে হোম পেজের যাবতীয় সেকসন যেমন সার্ভিস,এবাউট,হেডার,টেস্টিমনিয়াল ইত্যাদি ডিক্লায়ার করা হয়েছে। 
+2)	Service Details:- এই ফোল্ডারে ক্লিক কৃত সার্ভিসের ডিটেইলস , সার্ভিসের কেটাগরি অনুযায়ী সার্ভিস এর প্রাইস লিস্ট , ইউজারের ডেলিভেরীর ইনফরমেসন নেওয়ার ফর্ম এবং কোম্পানীর অন্যান্য ফিচার ডিক্লায়ার করা হয়েছে। 
+3)	Check-out Page:-  এই ফোল্ডারে বুকিং কনফার্ম করা  এবং পেয়মেন্ট মেথড সেকসন এড করা হয়েছে।
+4)	Login:-  এখানে একাউন্ট   sign in , sign up  এর যাবতিয় বিষয় এড করা হয়েছে।
+5)	Dashboard:-  এই ফোল্ডারে ২ টা ভাগ । একঃ সাধারন ইউজার। দুইঃএডমিন। যদি কোন এডমিন লগিন করে তাহলে এক রকম ড্যাশবোর্ড আর সাধারন ইউজার লগিন করলে অন্যরকম ড্যাশবোর্ড এই জাতিয় বিশয় এদ করা হয়েছে।
+6)	Sheard:-  এই ফোল্ডারে অই সমস্ত সেকসন গুলা ডিক্লায়ার করা হয়েছে যেগুলা কে একবারের অধীক ব্যবহার করা হয়েছে। যেমন নাভবার, ফুটার, সাইডবার ইত্যাদি।
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # eagle-courier-express-client
